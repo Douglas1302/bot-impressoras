@@ -1,0 +1,19 @@
+# Dependências do Node (são muito pesadas e baixáveis via npm install)
+node_modules/
+
+# Sessão do WhatsApp (CRÍTICO: contém seus dados de login)
+.wwebjs_auth/
+.wwebjs_cache/
+session/
+
+# Logs de erro e sistema
+npm-debug.log
+logs/
+*.log
+
+# Arquivos de sistema operacional (lixo)
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente (se você usar .env com senhas no futuro)
+.env
